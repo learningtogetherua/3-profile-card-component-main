@@ -1,0 +1,36 @@
+@import url(https://fonts.googleapis.com/css?family=Outfit:300,regular,600);
+html {
+    box-sizing: border-box;
+}
+*,
+*::before {
+    box-sizing: inherit;
+}
+body {
+    margin: 0;
+    height: 100vh;
+    /* background: ;
+    font-family: ;
+    font-weight: ;
+    font-size: ;
+    color: ; */
+}
+h1 {
+    font-size: 0;
+}
+a {
+    text-decoration: none;
+    color: #000;
+}
+main {
+    /* max-width: ; */
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wrapper {
+    /* width: ;
+    min-height: ; */
+}
