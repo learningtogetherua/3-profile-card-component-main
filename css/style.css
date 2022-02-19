@@ -9,12 +9,25 @@ html {
 body {
     margin: 0;
     height: 100vh;
-    background: #19A1AE;
+    
     font-family: 'Kumbh Sans', sans-serif;
     font-weight: 400;
     font-size: 18px;
     line-height: 22px;
     color: #6B7082;
+
+    /* background-image: url(../images/bg-with-ovals.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center; */
+
+    background-image: url(../images/bg-pattern-top.svg),
+    url(../images/bg-pattern-bottom.svg);
+    background-color: #19A1AE;
+    background-repeat: no-repeat, no-repeat;
+    background-position: left -285px top -509px, right -238px bottom -640px;
+
+    
 }
 h1 {
     font-size: 0;
@@ -31,6 +44,7 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 .wrapper {
     width: 350px;
