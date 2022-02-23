@@ -59,6 +59,7 @@ main {
 .header__bg {
     height: 149px;
     background-image: url(../images/bg-pattern-card.svg);
+    background-position: center center;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     position: relative;
@@ -117,4 +118,19 @@ main {
 }
 .social__item {
     width: 59px;
+}
+
+@media (max-width:375px) {
+    body {
+        background-position: right -25% top -509px, left -25% bottom -640px;
+    }
+    .wrapper {
+        width: 326px;
+    }
+    .info__social {
+        width: 233px;
+    }
+    .info__personal {
+        padding-bottom: 24px;
+    }
 }
